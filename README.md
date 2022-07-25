@@ -1,3 +1,9 @@
 # Gritty-project
 
-proje gritt-ify - Google Chrome 2022-07-25 18-25-44.mp4
+<h1>Gritter</h1>
+
+Fun Page
+
+<h3> GIF - EKRAN GÖRÜNTÜSÜ</h3>
+
+![](gritty111.gif)
