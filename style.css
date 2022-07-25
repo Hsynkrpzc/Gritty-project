@@ -4,11 +4,15 @@
     top: 0;
     width: 100%;
     font-size: 20px;
+    background-color: rgb(243, 240, 240);
 
 }
 .navbar li{
     display: inline-block;
     padding: 30px 20px;
+}
+.navbar ul input{
+   color: black;
 }
 .navbar a {
     text-decoration: none;
@@ -26,6 +30,14 @@
     height: 100px;
     width: 100px;
     filter: drop-shadow(3px 3px 3px black);
+}
+.grotate:hover{
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: 1s;
 }
 
 .gritter-section{
