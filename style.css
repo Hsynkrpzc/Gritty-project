@@ -3,6 +3,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    font-size: 20px;
+
 }
 .navbar li{
     display: inline-block;
@@ -28,6 +30,11 @@
 
 .gritter-section{
     padding: 20px 50px;
+    flex-direction: column;
+    display: flex;            
+    justify-content: center;            
+   align-items: center;
+    
 }
 
 #gritter{
@@ -50,7 +57,48 @@
 
 .bold {
     font-weight: 900;
+   
 }
 a.blue {
     color: blue;
 }
+.textbox{
+    width: 250px;
+
+}
+
+.btngr {
+    background-color: red;
+    border-radius: 10px;
+    color: bisque;
+    border: none;
+    padding: 4px;
+}
+.btngr:hover{
+    background-color: rgb(215, 42, 195);
+}
+#greets ul li{
+   display: flex;
+   padding: 5px;
+    
+}
+.avatar{
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.sectops ul span{
+    color: bisque;
+    background-color: red;
+    border-radius: 10px;
+    font-size: 25px;
+   padding: 10px;
+}
+input[type=text] {
+    background-color: rgb(243, 240, 240);
+    color: white; }
+
+#sectiontext {
+    background-color: rgb(243, 240, 240);
+    padding: 20px;
+    border-radius: 10px;}
